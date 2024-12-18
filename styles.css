@@ -1,0 +1,137 @@
+header {
+    width: 100%; /* 横幅を100%に指定 */
+    background-color:#7fffd4; /* 背景色 */
+    color:#333333 ; /* テキストの色 */
+    padding: 10px 0; /* 上下の余白を追加 */
+    position: relative; /* 必要に応じて */
+  
+    position: fixed; /* 固定配置 */
+    top: 0;
+    left: 0;
+    height: 90px; /* ヘッダーの高さ */
+    z-index: 1000; /* 他の要素より前面に表示 */
+  }
+
+h1{
+    font-family: sans-serif;
+    text-align: center; /* テキストを中央揃え */
+    color:#333333;
+}
+
+/* リセット */
+body, html {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box; /* ボックスモデルを統一 */
+  }
+
+  /* footerのスタイル */
+footer {
+    width: 100%; /* 横幅を100%に指定 */
+    background-color:#7fffd4; /* 背景色 */
+    color:#333333 ; /* テキストの色 */
+    text-align: center; /* テキストを中央揃え */
+    padding: 10px 0; /* 上下の余白を追加 */
+    position: relative; /* 必要に応じて */
+  }
+
+
+
+.header_li {
+    list-style: none; /* 点を消す */
+    padding: 0px;
+    margin: 20px;
+    display: flex;
+    float:left;
+  }
+  
+.header_li li {
+    margin-right: 15px; /* 各項目の間隔 */
+  }
+  
+.header_li a {
+    text-decoration: none; /* アンダーラインを消す */
+    color: #333333; /* 文字色を指定 */
+  }
+
+.header_li_r{
+  list-style: none; /* 点を消す */
+  padding: 0px;
+  margin: 20px;
+  display: flex;
+  float:right;
+}
+
+.header_li_r li{
+  margin-right: 15px; /* 各項目の間隔 */
+}
+
+.header_li_r a {
+  text-decoration: none; /* アンダーラインを消す */
+  color: #333333; /* 文字色を指定 */
+}
+
+.btn{
+  padding:10px;
+  border-radius: 8px;
+  background-color: #cef9dc;
+  box-shadow: 0 4px 6px rgba(0, 0, 0, 0.1); 
+}
+
+.btn_s{
+  padding:10px;
+  border-radius: 8px;
+  background-color: #b9e1c6;
+  box-shadow: 0 4px 6px rgba(0, 0, 0, 0.1); 
+}
+ 
+
+li{
+    margin:10px;
+}
+
+[id]:before {
+  content: '';
+  display: block;
+  height: 150px; /* 固定ヘッダーの高さ */
+  margin-top: -60px; /* 元の位置を調整 */
+}
+
+
+[id]:last-of-type:before {
+  height: 0;
+  margin-top: 0;
+}
+
+
+main {
+    width: 80%; /* メインコンテンツの幅を指定 */
+    background-color: #f4f4f4; /* 背景色を追加 */
+    padding: 160px 20px 20px 20px; /* 内側の余白 */
+    border-radius: 8px; /* 角を丸くする */
+    box-shadow: 0 4px 6px rgba(0, 0, 0, 0.1); /* 少し立体感を出す */
+    margin:0 auto;
+  }
+
+.contact{
+    background-color: aliceblue;
+    padding: 10px;
+    border-radius: 8px; /* 角を丸くする */
+    box-shadow: 0 4px 6px rgba(0, 0, 0, 0.1); /* 少し立体感を出す */
+}
+
+.scale_image{
+    height:100px;
+    width:300px;
+}
+
+
+/*page2*/
+
+.scale_image_2{
+    display: block; /* ブロック要素に変更 */
+    margin: 0 auto; /* 左右の自動マージンで中央揃え */
+    max-width: 100%; /* 画像が大きすぎないように制限 */
+    height: 150px;
+    width:400px;
+  }
