@@ -223,7 +223,7 @@ main {
     .header_li {
       list-style: none; /* 点を消す */
       padding: 0px;
-      margin: 0px;
+      margin-bottom: 1px;
       display: flex;
       float:left;
     }
