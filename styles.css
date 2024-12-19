@@ -30,6 +30,8 @@ body, html {
     margin: 0;
     padding: 0;
     box-sizing: border-box; /* ボックスモデルを統一 */
+    scroll-padding-top: 180px; /* 固定ヘッダーの高さ */
+    scroll-behavior: smooth;
   }
 
   /* footerのスタイル */
@@ -97,19 +99,6 @@ li{
     margin:10px;
 }
 
-[id]:before {
-  content: '';
-  display: block;
-  height: 150px; /* 固定ヘッダーの高さ */
-  margin-top: -60px; /* 元の位置を調整 */
-}
-
-
-[id]:last-of-type:before {
-  height: 0;
-  margin-top: 0;
-}
-
 
 main {
     width: 80%; /* メインコンテンツの幅を指定 */
@@ -155,7 +144,7 @@ main {
     width:300px;
   }
 
-  @media (min-width: 481px) and (max-width:800){
+  @media (min-width: 481px) and (max-width:1200px){
 
     .header_li {
       list-style: none; /* 点を消す */
@@ -190,7 +179,7 @@ main {
       position: fixed; /* 固定配置 */
       top: 0;
       left: 0;
-      height: 80px; /* ヘッダーの高さ */
+      height: 70px; /* ヘッダーの高さ */
       z-index: 1000; /* 他の要素より前面に表示 */
     }
     
@@ -217,7 +206,7 @@ main {
     
     }
     
-    @media (max-width: 480px) {
+    @media (max-width: 500px) {
         
     .header_li {
       list-style: none; /* 点を消す */
