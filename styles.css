@@ -251,7 +251,7 @@ h2{
     .header_li {
       list-style: none; /* 点を消す */
       padding: 0px;
-      margin-bottom: 1px;
+      margin: 5px;
       display: flex;
       float:left;
     }
@@ -263,7 +263,7 @@ h2{
     .header_li_r{
     list-style: none; /* 点を消す */
     padding: 0px;
-    margin: 0px;
+    margin: 5px;
     display: flex;
     float:right;
     }
