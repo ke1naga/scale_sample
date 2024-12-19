@@ -129,6 +129,12 @@ h3 {
   text-decoration-thickness: 3px; /* アンダーラインの太さ */
 }
 
+h2{
+  text-decoration: underline;
+  text-decoration-color: #1effb4; /* アンダーラインの色 */
+  text-decoration-thickness: 5px; /* アンダーラインの太さ */
+}
+
 /*page2*/
 
 .scale_image_2{
