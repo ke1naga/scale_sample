@@ -10,6 +10,9 @@ body, html {
 body{
   color:#333333;
   min-height: 100vh; /* ページ全体の高さを確保 */
+  font-family: "M PLUS 1p", serif;
+  font-weight: 400;
+  font-style: normal;
 }
 
 
@@ -28,9 +31,12 @@ header {
   }
 
 h1{
-    font-family: 'Gabriola', sans-serif;
     text-align: center; /* テキストを中央揃え */
     color:#333333;
+    font-family: "Oswald", serif;
+    font-optical-sizing: auto;
+    font-weight: <weight>;
+    font-style: normal;
 }
 
   /* footerのスタイル */
