@@ -160,25 +160,25 @@ main {
     .header_li {
       list-style: none; /* 点を消す */
       padding: 0px;
-      margin: 5px;
+      margin: 3px;
       display: flex;
       float:left;
     }
     
     .header_li li {
-      margin-right: 5px; /* 各項目の間隔 */
+      margin-right: 3px; /* 各項目の間隔 */
     }
     
     .header_li_r{
     list-style: none; /* 点を消す */
     padding: 0px;
-    margin: 5px;
+    margin: 3px;
     display: flex;
     float:right;
     }
     
     .header_li_r li{
-    margin-right: 5px; /* 各項目の間隔 */
+    margin-right: 3px; /* 各項目の間隔 */
     }
     
     header {
@@ -223,7 +223,7 @@ main {
     .header_li {
       list-style: none; /* 点を消す */
       padding: 0px;
-      margin: 5px;
+      margin: 0px;
       display: flex;
       float:left;
     }
