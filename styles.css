@@ -1,125 +1,4 @@
-@media (min-width: 481px) and (max-width:800){
 
-.header_li {
-  list-style: none; /* 点を消す */
-  padding: 0px;
-  margin: 10px;
-  display: flex;
-  float:left;
-}
-
-.header_li li {
-  margin-right: 10px; /* 各項目の間隔 */
-}
-
-.header_li_r{
-list-style: none; /* 点を消す */
-padding: 0px;
-margin: 10px;
-display: flex;
-float:right;
-}
-
-.header_li_r li{
-margin-right: 10px; /* 各項目の間隔 */
-}
-
-header {
-  width: 100%; /* 横幅を100%に指定 */
-  background-color:#7fffd4; /* 背景色 */
-  color:#333333 ; /* テキストの色 */
-  padding: 8px 0; /* 上下の余白を追加 */
-  position: relative; /* 必要に応じて */
-  position: fixed; /* 固定配置 */
-  top: 0;
-  left: 0;
-  height: 80px; /* ヘッダーの高さ */
-  z-index: 1000; /* 他の要素より前面に表示 */
-}
-
-.btn{
-  padding:8px;
-  border-radius: 8px;
-  background-color: #cef9dc;
-  box-shadow: 0 4px 6px rgba(0, 0, 0, 0.1); 
-}
-
-.btn_s{
-  padding:8px;
-  border-radius: 8px;
-  background-color: #b9e1c6;
-  box-shadow: 0 4px 6px rgba(0, 0, 0, 0.1); 
-}
- 
-
-li{
-    margin:8px;
-    display: inline-block; /* 横並びにする */
-    margin-right: 8px; /* アイテム間のスペース */
-}
-
-
-}
-
-@media (max-width: 480px) {
-  
-.header_li {
-  list-style: none; /* 点を消す */
-  padding: 0px;
-  margin: 5px;
-  display: flex;
-  float:left;
-}
-
-.header_li li {
-  margin-right: 5px; /* 各項目の間隔 */
-}
-
-.header_li_r{
-list-style: none; /* 点を消す */
-padding: 0px;
-margin: 5px;
-display: flex;
-float:right;
-}
-
-.header_li_r li{
-margin-right: 5px; /* 各項目の間隔 */
-}
-
-header {
-  width: 100%; /* 横幅を100%に指定 */
-  background-color:#7fffd4; /* 背景色 */
-  color:#333333 ; /* テキストの色 */
-  padding: 5px 0; /* 上下の余白を追加 */
-  position: relative; /* 必要に応じて */
-  position: fixed; /* 固定配置 */
-  top: 0;
-  left: 0;
-  height: 70px; /* ヘッダーの高さ */
-  z-index: 1000; /* 他の要素より前面に表示 */
-}
-
-.btn{
-  padding:5px;
-  border-radius: 8px;
-  background-color: #cef9dc;
-  box-shadow: 0 4px 6px rgba(0, 0, 0, 0.1); 
-}
-
-.btn_s{
-  padding:5px;
-  border-radius: 8px;
-  background-color: #b9e1c6;
-  box-shadow: 0 4px 6px rgba(0, 0, 0, 0.1); 
-}
- 
-
-li{
-    margin:5px;
-}
-
-}
 
 body{
   color:#333333
@@ -275,3 +154,126 @@ main {
     height: 100px;
     width:300px;
   }
+
+  @media (min-width: 481px) and (max-width:800){
+
+    .header_li {
+      list-style: none; /* 点を消す */
+      padding: 0px;
+      margin: 10px;
+      display: flex;
+      float:left;
+    }
+    
+    .header_li li {
+      margin-right: 10px; /* 各項目の間隔 */
+    }
+    
+    .header_li_r{
+    list-style: none; /* 点を消す */
+    padding: 0px;
+    margin: 10px;
+    display: flex;
+    float:right;
+    }
+    
+    .header_li_r li{
+    margin-right: 10px; /* 各項目の間隔 */
+    }
+    
+    header {
+      width: 100%; /* 横幅を100%に指定 */
+      background-color:#7fffd4; /* 背景色 */
+      color:#333333 ; /* テキストの色 */
+      padding: 8px 0; /* 上下の余白を追加 */
+      position: relative; /* 必要に応じて */
+      position: fixed; /* 固定配置 */
+      top: 0;
+      left: 0;
+      height: 80px; /* ヘッダーの高さ */
+      z-index: 1000; /* 他の要素より前面に表示 */
+    }
+    
+    .btn{
+      padding:8px;
+      border-radius: 8px;
+      background-color: #cef9dc;
+      box-shadow: 0 4px 6px rgba(0, 0, 0, 0.1); 
+    }
+    
+    .btn_s{
+      padding:8px;
+      border-radius: 8px;
+      background-color: #b9e1c6;
+      box-shadow: 0 4px 6px rgba(0, 0, 0, 0.1); 
+    }
+     
+    
+    li{
+        margin:8px;
+        display: inline-block; /* 横並びにする */
+        margin-right: 8px; /* アイテム間のスペース */
+    }
+    
+    
+    }
+    
+    @media (max-width: 480px) {
+      
+    .header_li {
+      list-style: none; /* 点を消す */
+      padding: 0px;
+      margin: 5px;
+      display: flex;
+      float:left;
+    }
+    
+    .header_li li {
+      margin-right: 5px; /* 各項目の間隔 */
+    }
+    
+    .header_li_r{
+    list-style: none; /* 点を消す */
+    padding: 0px;
+    margin: 5px;
+    display: flex;
+    float:right;
+    }
+    
+    .header_li_r li{
+    margin-right: 5px; /* 各項目の間隔 */
+    }
+    
+    header {
+      width: 100%; /* 横幅を100%に指定 */
+      background-color:#7fffd4; /* 背景色 */
+      color:#333333 ; /* テキストの色 */
+      padding: 5px 0; /* 上下の余白を追加 */
+      position: relative; /* 必要に応じて */
+      position: fixed; /* 固定配置 */
+      top: 0;
+      left: 0;
+      height: 70px; /* ヘッダーの高さ */
+      z-index: 1000; /* 他の要素より前面に表示 */
+    }
+    
+    .btn{
+      padding:5px;
+      border-radius: 8px;
+      background-color: #cef9dc;
+      box-shadow: 0 4px 6px rgba(0, 0, 0, 0.1); 
+    }
+    
+    .btn_s{
+      padding:5px;
+      border-radius: 8px;
+      background-color: #b9e1c6;
+      box-shadow: 0 4px 6px rgba(0, 0, 0, 0.1); 
+    }
+     
+    
+    li{
+        margin:5px;
+    }
+    
+    }
