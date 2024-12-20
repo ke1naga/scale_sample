@@ -1,4 +1,5 @@
 
+
 /* リセット */
 body, html {
   margin: 0;
@@ -39,8 +40,18 @@ h1{
     font-style: normal;
 }
 
+.scale_footer{
+  position: absolute; /* フッターを絶対配置 */
+  bottom: 0; /* 画面の下に配置 */
+  width: 100%; /* 横幅を100%に指定 */
+  background-color:#7fffd4; /* 背景色 */
+  color:#333333 ; /* テキストの色 */
+  text-align: center; /* テキストを中央揃え */
+  padding: 10px 0; /* 上下の余白を追加 */
+  
+}
   /* footerのスタイル */
-footer {
+.index_footer {
     width: 100%; /* 横幅を100%に指定 */
     background-color:#7fffd4; /* 背景色 */
     color:#333333 ; /* テキストの色 */
@@ -109,8 +120,18 @@ footer {
     margin:10px 0px;
 }
 
+.scale_main{
+  width: 80%; /* メインコンテンツの幅を指定 */
+  background-color: #f4f4f4; /* 背景色を追加 */
+  padding: 160px 20px 20px 20px; /* 内側の余白 */
+  border-radius: 8px; /* 角を丸くする */
+  box-shadow: 0 4px 6px rgba(0, 0, 0, 0.1); /* 少し立体感を出す */
+  margin:0 auto;
+  height:100vh;
 
-main {
+  }
+
+.index_main {
     width: 80%; /* メインコンテンツの幅を指定 */
     background-color: #f4f4f4; /* 背景色を追加 */
     padding: 160px 20px 20px 20px; /* 内側の余白 */
@@ -119,6 +140,8 @@ main {
     margin:0 auto;
     flex: 1; /* コンテンツ部分を可変にする */
   }
+
+
 
 .contact{
     background-color: aliceblue;
@@ -171,6 +194,15 @@ h2{
     height: 100px;
     width:300px;
   }
+
+  .section{
+    width: 80%; /* メインコンテンツの幅を指定 */
+    background-color: #f4f4f4; /* 背景色を追加 */
+    margin:0 auto;
+    padding:20px;
+  }
+
+
 
   @media (min-width: 481px) and (max-width:1200px){
 
