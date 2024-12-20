@@ -165,6 +165,7 @@ h1{
 
 h3 {
   text-decoration: underline;
+  text-decoration-skip-ink: none;
   text-decoration-color: #7fffd4; /* アンダーラインの色 */
   text-decoration-thickness: 3px; /* アンダーラインの太さ */
 }
