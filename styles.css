@@ -48,7 +48,7 @@ h1{
   color:#333333 ; /* テキストの色 */
   text-align: center; /* テキストを中央揃え */
   padding: 10px 0; /* 上下の余白を追加 */
-  height:5vh;
+  height:10vh;
 }
   /* footerのスタイル */
 .index_footer {
