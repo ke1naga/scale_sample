@@ -27,7 +27,7 @@ header {
     position: fixed; /* 固定配置 */
     top: 0;
     left: 0;
-    height: 90px; /* ヘッダーの高さ */
+    height: 10vh; /* ヘッダーの高さ */
     z-index: 1000; /* 他の要素より前面に表示 */
   }
 
@@ -48,7 +48,7 @@ h1{
   color:#333333 ; /* テキストの色 */
   text-align: center; /* テキストを中央揃え */
   padding: 10px 0; /* 上下の余白を追加 */
-  
+  height:5vh;
 }
   /* footerのスタイル */
 .index_footer {
@@ -127,7 +127,7 @@ h1{
   border-radius: 8px; /* 角を丸くする */
   box-shadow: 0 4px 6px rgba(0, 0, 0, 0.1); /* 少し立体感を出す */
   margin:0 auto;
-  height:100vh;
+  height:80vh;
 
   }
 
