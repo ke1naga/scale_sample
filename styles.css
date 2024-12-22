@@ -290,7 +290,7 @@ h2{
         width: 100%; /* 横幅を100%に指定 */
         background-color:#7fffd4; /* 背景色 */
         color:#333333 ; /* テキストの色 */
-        padding: 3px 1px; /* 上下の余白を追加 */
+        padding: 1%; /* 余白を追加 */
         position: relative; /* 必要に応じて */
         position: fixed; /* 固定配置 */
         top: 0;
@@ -303,9 +303,9 @@ h2{
     .header_li {
       list-style: none; /* 点を消す */
       padding: 0px;
-      margin: 5px 0px;
+      margin: 1%;
       display: flex;
-      float:left;
+      justify-content:flex-start;
     }
     
     .header_li li {
@@ -315,9 +315,9 @@ h2{
     .header_li_r{
     list-style: none; /* 点を消す */
     padding: 0px;
-    margin: 5px 0px;
+    margin: 1%;
     display: flex;
-    float:right;
+    justify-content: flex-end;
     }
     
     .header_li_r li{
