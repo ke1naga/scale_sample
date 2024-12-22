@@ -83,9 +83,6 @@ h1{
     color: #333333; /* 文字色を指定 */
   }
 
-.header_li a:hover{
-  color:#222222;
-}  
 
 .header_li_r{
   list-style: none; /* 点を消す */
@@ -104,10 +101,7 @@ h1{
   color: #333333; /* 文字色を指定 */
 }
 
-.header_li_r a:hover{
-  color:#222222;
-}
-}
+
 .btn{
   padding:10px;
   border-radius: 8px;
