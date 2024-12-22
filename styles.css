@@ -1,4 +1,5 @@
 
+@charset "UTF-8";
 
 /* リセット */
 body, html {
@@ -24,7 +25,7 @@ header {
     width: 100%; /* 横幅を100%に指定 */
     background-color:#7fffd4; /* 背景色 */
     color:#333333 ; /* テキストの色 */
-    padding: 10px 0; /* 上下の余白を追加 */
+    padding: 10px 0px; /* 余白を追加 */
     position: relative; /* 必要に応じて */
   
     position: fixed; /* 固定配置 */
@@ -70,7 +71,7 @@ h1{
     padding: 0px;
     margin: 20px;
     display: flex;
-    float:left;
+    justify-content: flex-start;
   }
   
 .header_li li {
@@ -82,12 +83,16 @@ h1{
     color: #333333; /* 文字色を指定 */
   }
 
+.header_li a:hover{
+  color:#222222;
+}  
+
 .header_li_r{
   list-style: none; /* 点を消す */
   padding: 0px;
   margin: 20px;
   display: flex;
-  float:right;
+  justify-content: flex-end;
 }
 
 .header_li_r li{
@@ -99,6 +104,10 @@ h1{
   color: #333333; /* 文字色を指定 */
 }
 
+.header_li_r a:hover{
+  color:#222222;
+}
+}
 .btn{
   padding:10px;
   border-radius: 8px;
@@ -215,7 +224,7 @@ h2{
       width: 100%; /* 横幅を100%に指定 */
       background-color:#7fffd4; /* 背景色 */
       color:#333333 ; /* テキストの色 */
-      padding: 3px 0; /* 上下の余白を追加 */
+      padding: 3px 3px; /* 上下の余白を追加 */
       position: relative; /* 必要に応じて */
       position: fixed; /* 固定配置 */
       top: 0;
@@ -245,7 +254,7 @@ h2{
     }
     
     .header_li_r li{
-    margin-right: 1px; /* 各項目の間隔 */
+    margin-left: 1px; /* 各項目の間隔 */
     }
     
 
@@ -281,7 +290,7 @@ h2{
         width: 100%; /* 横幅を100%に指定 */
         background-color:#7fffd4; /* 背景色 */
         color:#333333 ; /* テキストの色 */
-        padding: 3px 0; /* 上下の余白を追加 */
+        padding: 3px 1px; /* 上下の余白を追加 */
         position: relative; /* 必要に応じて */
         position: fixed; /* 固定配置 */
         top: 0;
@@ -312,7 +321,7 @@ h2{
     }
     
     .header_li_r li{
-    margin-right: 0px; /* 各項目の間隔 */
+    margin-left: 0px; /* 各項目の間隔 */
     }
     
 
