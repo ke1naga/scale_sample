@@ -22,11 +22,8 @@ body{
 
 header {
     width: 100%; /* 横幅を100%に指定 */
-    background-color:#7fffd4; /* 背景色 */
     color:#333333 ; /* テキストの色 */
-    padding: 10px 0; /* 上下の余白を追加 */
     position: relative; /* 必要に応じて */
-  
     position: fixed; /* 固定配置 */
     top: 0;
     left: 0;
@@ -35,6 +32,8 @@ header {
   }
 
 h1{
+    padding: 1rem 0; /* 上下の余白を追加 */
+    background-color:#7fffd4; /* 背景色 */
     text-align: center; /* テキストを中央揃え */
     color:#333333;
     font-family: "Oswald", serif;
@@ -118,7 +117,6 @@ h1{
 .btn_s:hover{
   background-color: aqua;
 }
-
 
 .scale_ul{
   list-style: none;
@@ -219,13 +217,11 @@ h2{
 
 
 
-  @media (min-width: 481px) and (max-width:1200px){
+  @media (min-width: 501px) and (max-width:1200px){
 
     header {
       width: 100%; /* 横幅を100%に指定 */
-      background-color:#7fffd4; /* 背景色 */
       color:#333333 ; /* テキストの色 */
-      padding: 3px 0; /* 上下の余白を追加 */
       position: relative; /* 必要に応じて */
       position: fixed; /* 固定配置 */
       top: 0;
@@ -289,9 +285,7 @@ h2{
 
       header {
         width: 100%; /* 横幅を100%に指定 */
-        background-color:#7fffd4; /* 背景色 */
         color:#333333 ; /* テキストの色 */
-        padding: 3px 0; /* 上下の余白を追加 */
         position: relative; /* 必要に応じて */
         position: fixed; /* 固定配置 */
         top: 0;
@@ -318,7 +312,8 @@ h2{
     padding: 0px;
     margin: 5px;
     display: flex;
-    float:right;
+    justify-content:left ;
+    font-size:0.9rem;    
     }
     
     .header_li_r li{
