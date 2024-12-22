@@ -118,12 +118,17 @@ h1{
 .btn_s:hover{
   background-color: aqua;
 }
+
+
 .scale_ul{
   list-style: none;
-  display:flex;
-  gap: 30px; /* 各リスト間に余白を追加 */
-  flex-wrap: wrap; /* 折り返しを有効にする */
+  display:grid;
+  justify-content: flex-start;
+  gap:2rem;
+  grid-template-columns: repeat(auto-fit,minmax(280px,1fr));
+  grid-auto-flow: row;
 }
+
 .scale_ul li{
     margin:10px 0px;
 }
