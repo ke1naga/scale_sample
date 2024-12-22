@@ -21,6 +21,9 @@ body{
 
 
 header {
+    margin-top: 0px;
+    padding-top:0px;
+    background-color: #7fffd4;
     width: 100%; /* 横幅を100%に指定 */
     color:#333333 ; /* テキストの色 */
     position: relative; /* 必要に応じて */
