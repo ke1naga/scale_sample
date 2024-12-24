@@ -24,7 +24,7 @@ header {
     margin-top: 0px;
     padding-top:0px;
     background-color: #7fffd4;
-    width: 100%; /* 横幅を100%に指定 */
+    width: 100vw; /* 横幅を100%に指定 */
     color:#333333 ; /* テキストの色 */
     position: relative; /* 必要に応じて */
     position: fixed; /* 固定配置 */
@@ -190,7 +190,8 @@ h2{
   text-decoration-thickness: 5px; /* アンダーラインの太さ */
   margin-bottom:1rem;
   overflow: hidden;
-  animation: slide_in_cool 1s ease-out;
+  transform:translateX(100%);
+  animation: slide_in_cool 1s ease-out forwards;
   display:inline-block;
 }
 
