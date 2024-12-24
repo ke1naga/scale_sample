@@ -197,7 +197,7 @@ h2{
   /*cool*/
   @keyframes slide_in_cool{
     from{
-      transform: translateX(100%);
+      transform: translateX(100vw);
       opacity:0;
     }
     to{
