@@ -190,8 +190,7 @@ h2{
   text-decoration-thickness: 5px; /* アンダーラインの太さ */
   margin-bottom:1rem;
   overflow: hidden;
-  transform:translateX(100%);
-  animation: slide_in_cool 1s ease-out forwards;
+  animation: slide_in_cool 1s ease-out;
   display:inline-block;
 }
 
