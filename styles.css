@@ -178,7 +178,10 @@ h3 {
   text-decoration-color: #7fffd4; /* アンダーラインの色 */
   text-decoration-thickness: 3px; /* アンダーラインの太さ */
   margin-bottom:1rem;
+
 }
+
+
 
 h2{
   text-decoration: underline;
@@ -186,7 +189,23 @@ h2{
   text-decoration-color: #1effb4; /* アンダーラインの色 */
   text-decoration-thickness: 5px; /* アンダーラインの太さ */
   margin-bottom:1rem;
+  overflow: hidden;
+  animation: slide_in_cool 1s ease-out;
+  display:inline-block;
 }
+
+  /*cool*/
+  @keyframes slide_in_cool{
+    from{
+      transform: translateX(100%);
+      opacity:0;
+    }
+    to{
+      transform: translateX(0);
+      opacity: 1;
+    }
+    }
+
 
 h4{
   margin-bottom:1rem;
@@ -221,23 +240,6 @@ h4{
     background-color: #f4f4f4; /* 背景色を追加 */
     margin:0 auto;
     padding:20px;
-  }
-
-  /*cool*/
-  @keyframes slide_in_cool{
-    from{
-      transform: translateX(100%);
-      opacity:0;
-    }
-    to{
-      transform: translateX(0);
-      opacity: 1;
-    }
-    }
-
-  .cool_title{
-    animation: slide_in_cool 1s ease-out;
-    display:inline-block;
   }
 
 
