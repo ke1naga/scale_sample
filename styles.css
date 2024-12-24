@@ -373,6 +373,19 @@ h4{
     h1{
       font-size: 7vw; 
     }
+
+      /*cool*/
+      @keyframes slide_in_cool{
+        from{
+          transform: translateX(-100vw);
+          opacity:0;
+        }
+        to{
+          transform: translateX(0);
+          opacity: 1;
+        }
+        }
+    
   }
 
   @media (max-height: 500px) {
