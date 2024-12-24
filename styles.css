@@ -223,6 +223,22 @@ h4{
     padding:20px;
   }
 
+  /*cool*/
+  @keyframes slide_in_cool{
+    from{
+      transform: translateX(100%);
+      opacity:0;
+    }
+    to{
+      transform: translateX(0);
+      opacity: 1;
+    }
+    }
+
+  .cool_title{
+    animation: slide_in_cool 1s ease-out;
+    display:inline-block;
+  }
 
 
   @media (min-width: 501px) and (max-width:1200px){
