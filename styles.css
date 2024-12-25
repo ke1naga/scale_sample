@@ -296,7 +296,65 @@ h4{
     padding:20px;
   }
 
+/*fight*/
+.fight{
+  text-decoration: none;
+  border:2px outset rgb(174, 185, 248);
+  border-radius: 10px;
+ }
+ 
+ .fight:hover{
+   background-color: rgb(174, 185, 248);
+   border-radius: 10px;
+}
 
+.fight_main{
+width: 80%; /* メインコンテンツの幅を指定 */
+background-color: black; /* 背景色を追加 */
+padding: 160px 20px 20px 20px; /* 内側の余白 */
+border-radius: 8px; /* 角を丸くする */
+box-shadow: 0 4px 6px rgba(0, 0, 0, 0.2); /* 少し立体感を出す */
+margin:0 auto;
+height:100vh;
+color:#fff;
+text-align:center;
+}
+
+.fight_btn a {
+  position: relative;
+  display: block;
+  width: 280px;
+  padding: 15px 0;
+  background-color: #21BE78;
+  font-size: 20px;
+  font-weight: 800;
+  color: #fff;
+  line-height: 1.6;
+  text-decoration: none;
+  text-align: center;
+  transition: .2s;
+  box-sizing: border-box;
+  display: block;
+  margin: 0 auto;
+}
+
+
+/* ライトのように光るスタイル */
+.fight_light a {
+  background-color: rgba(20,242,224,0.75);
+  border: 1px solid #fff;
+  transition: .15s ease;
+}
+
+/* ホバー時のスタイル */
+.fight_light a:hover {
+  background-color: rgb(29, 167, 217);
+  background-color: #13f2e0;
+  box-shadow: 0 0 20px 5px rgba(255, 255, 255, 1);
+}
+  
+  
+  
   @media (min-width: 501px) and (max-width:1200px){
 
     header {
