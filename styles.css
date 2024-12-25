@@ -211,6 +211,8 @@ h1{
   border-radius: 8px;
 }
 
+/*小さくする*/*/
+
 .scale_name::after {
   content: '';
   position: absolute;
@@ -504,7 +506,6 @@ text-align:center;
       padding: 0px;
       margin: 5px;
       display: flex;
-      float:left;
     }
     
     .header_li li {
@@ -516,7 +517,6 @@ text-align:center;
     padding: 0px;
     margin: 5px;
     display: flex;
-    justify-content:left ;
     font-size:0.9rem;    
     }
     
@@ -562,6 +562,23 @@ text-align:center;
           transform: translateX(0);
           opacity: 1;
         }
+        }
+
+        .reflection2 a::before {
+          content:none;
+          position: none;
+          top: none;
+          left: none;
+          width: none;
+          height: none;
+          background-image: none;
+          transition: none;
+        }
+        
+        /* ホバー時のスタイル */
+        .reflection2 a:hover::before {
+          top: none;
+          left:none;
         }
     
   }
