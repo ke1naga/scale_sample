@@ -415,8 +415,32 @@ text-align:center;
   background-color: #13f2e0;
   box-shadow: 0 0 20px 5px rgba(255, 255, 255, 1);
 }
-  
-  
+
+/*ライン*/
+.line {
+  display: block;
+  position: relative;
+  height: 10px;
+}
+
+.line::before {
+  border-radius: 8px;
+  background: linear-gradient(to right, #362ae0 0%, #3b79cc 50%, #42d3ed 100%);
+  content: '';
+  display: block;
+  height: 100%;
+  width: 3rem;
+  transform: translateX(-50%);
+  animation: lineGrow 2s cubic-bezier(0.22, 1, 0.36, 1);
+  position: absolute;
+  top:0;
+  left: 50%;
+}
+
+.line:hover::before{
+  width:100%;
+}
+
   
   @media (min-width: 501px) and (max-width:1200px){
 
