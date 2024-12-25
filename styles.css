@@ -224,7 +224,7 @@ h1{
 
 /* ホバー時のスタイル */
 .scale_name a:hover {
-  transform: scale(0.95);
+  transform: scale(0.9);
   background-color:rgb(203, 255, 255); 
 }
 
@@ -251,7 +251,7 @@ h1{
 }
 
 .blues_music a:hover{
-  transform: scale(0.95);
+  transform: scale(0.9);
   background-color: rgb(174, 185, 248);
   border-radius: 10px;
 }
