@@ -218,7 +218,6 @@ h1{
   position: absolute;
   top: 0;
   bottom: 0;
-  transform: rotate(45deg);
   transition: .2s;
   box-sizing: border-box;
 }
@@ -247,7 +246,6 @@ h1{
   position:absolute;
   top:0;
   bottom:0;
-  transform:rotate(45deg);
   transition:0.2s;
   box-sizing:border-box;
 }
