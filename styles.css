@@ -262,10 +262,7 @@ h3 {
   text-decoration-color: #7fffd4; /* アンダーラインの色 */
   text-decoration-thickness: 3px; /* アンダーラインの太さ */
   margin-bottom:1rem;
-
 }
-
-
 
 h2{
   text-decoration: underline;
