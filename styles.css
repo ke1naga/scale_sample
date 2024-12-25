@@ -359,7 +359,7 @@ h4{
     padding:20px;
   }
 
-/*fight*/
+/*fightページリンク*/
 .fight{
   text-decoration: none;
   border:2px outset rgb(174, 185, 248);
@@ -371,6 +371,7 @@ h4{
    border-radius: 10px;
 }
 
+/*fightページ*/
 .fight_main{
 width: 80%; /* メインコンテンツの幅を指定 */
 background-color: black; /* 背景色を追加 */
@@ -407,6 +408,7 @@ text-align:center;
   background-color: rgba(20,242,224,0.75);
   border: 1px solid #fff;
   transition: .15s ease;
+  border-radius: 8px;
 }
 
 /* ホバー時のスタイル */
