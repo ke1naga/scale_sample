@@ -195,9 +195,28 @@ h1{
   left: 100%;
 }
 
-.scale_a{
-  display: block;
+.a_text{
+  display: inline-block; /* テキストのサイズに応じてボックスの幅を調整 */
   text-decoration: none;
+  color:#4f4f4f;
+  border: 2px outset rgb(203, 255, 255); /* 枠線を追加 */
+  border-radius: 8px;
+}
+
+.blues p a{
+ text-decoration: none;
+ border:2px outset rgb(174, 185, 248);
+ border-radius: 10px;
+}
+
+.scale_ul li a:hover{
+  background-color:rgb(203, 255, 255); 
+  border-radius: 8px;
+}
+
+.blues p a:hover{
+  background-color: rgb(174, 185, 248);
+  border-radius: 10px;
 }
 
 h3 {
