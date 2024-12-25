@@ -101,24 +101,31 @@ h1{
 }
 
 .btn{
+  position:relative;
   padding:10px;
   border-radius: 8px;
   background-color: #cef9dc;
-  box-shadow: 0 4px 6px rgba(0, 0, 0, 0.1); 
+  box-shadow: 0 4px 6px rgba(0, 0, 0, 0.3); 
 }
 
 .btn:hover{
- background-color: aqua;
+  top:4px;
+  background-color: aqua;
+  box-shadow: 0 0 0;
 }
+
 .btn_s{
+  position:relative;
   padding:10px;
   border-radius: 8px;
   background-color: #b9e1c6;
-  box-shadow: 0 4px 6px rgba(0, 0, 0, 0.1); 
+  box-shadow: 0 4px 6px rgba(0, 0, 0, 0.3); 
 }
  
 .btn_s:hover{
+  top:4px;
   background-color: aqua;
+  box-shadow: 0 0 0;
 }
 
 .scale_ul{
@@ -139,7 +146,7 @@ h1{
   background-color: #f4f4f4; /* 背景色を追加 */
   padding: 160px 20px 20px 20px; /* 内側の余白 */
   border-radius: 8px; /* 角を丸くする */
-  box-shadow: 0 4px 6px rgba(0, 0, 0, 0.1); /* 少し立体感を出す */
+  box-shadow: 0 4px 6px rgba(0, 0, 0, 0.2); /* 少し立体感を出す */
   margin:0 auto;
   min-height:100vh;
 
@@ -150,7 +157,7 @@ h1{
     background-color: #f4f4f4; /* 背景色を追加 */
     padding: 160px 20px 20px 20px; /* 内側の余白 */
     border-radius: 8px; /* 角を丸くする */
-    box-shadow: 0 4px 6px rgba(0, 0, 0, 0.1); /* 少し立体感を出す */
+    box-shadow: 0 4px 6px rgba(0, 0, 0, 0.2); /* 少し立体感を出す */
     margin:0 auto;
     flex: 1; /* コンテンツ部分を可変にする */
   }
@@ -159,7 +166,7 @@ h1{
     background-color: aliceblue;
     padding: 10px;
     border-radius: 8px; /* 角を丸くする */
-    box-shadow: 0 4px 6px rgba(0, 0, 0, 0.1); /* 少し立体感を出す */
+    box-shadow: 0 4px 6px rgba(0, 0, 0, 0.3); /* 少し立体感を出す */
 }
 
 .scale_image{
@@ -333,14 +340,14 @@ h4{
       padding:5px;
       border-radius: 8px;
       background-color: #cef9dc;
-      box-shadow: 0 4px 6px rgba(0, 0, 0, 0.1); 
+      box-shadow: 0 4px 6px rgba(0, 0, 0, 0.2); 
     }
     
     .btn_s{
       padding:5px;
       border-radius: 8px;
       background-color: #b9e1c6;
-      box-shadow: 0 4px 6px rgba(0, 0, 0, 0.1); 
+      box-shadow: 0 4px 6px rgba(0, 0, 0, 0.2); 
     }
      
     .scale_ul{
@@ -398,14 +405,14 @@ h4{
       padding:3px;
       border-radius: 8px;
       background-color: #cef9dc;
-      box-shadow: 0 2px 3px rgba(0, 0, 0, 0.1); 
+      box-shadow: 0 2px 3px rgba(0, 0, 0, 0.2); 
     }
     
     .btn_s{
       padding:3px;
       border-radius: 8px;
       background-color: #b9e1c6;
-      box-shadow: 0 2px 3px rgba(0, 0, 0, 0.1); 
+      box-shadow: 0 2px 3px rgba(0, 0, 0, 0.2); 
     }
      
     .scale_ul{
@@ -441,7 +448,7 @@ h4{
       background-color: #f4f4f4; /* 背景色を追加 */
       padding: 160px 20px 20px 20px; /* 内側の余白 */
       border-radius: 8px; /* 角を丸くする */
-      box-shadow: 0 4px 6px rgba(0, 0, 0, 0.1); /* 少し立体感を出す */
+      box-shadow: 0 4px 6px rgba(0, 0, 0, 0.2); /* 少し立体感を出す */
       margin:0 auto;
       flex:1;
       height:auto;
