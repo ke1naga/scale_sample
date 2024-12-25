@@ -202,8 +202,8 @@ h1{
   left: 100%;
 }
 
-
 .a_text{
+  position:relative;
   display: inline-block; /* テキストのサイズに応じてボックスの幅を調整 */
   text-decoration: none;
   color:#4f4f4f;
@@ -211,18 +211,47 @@ h1{
   border-radius: 8px;
 }
 
-.blues p a{
+.scale_name::after {
+  content: '';
+  position: absolute;
+  top: 0;
+  bottom: 0;
+  transform: rotate(45deg);
+  transition: .2s;
+  box-sizing: border-box;
+}
+
+/* ホバー時のスタイル */
+.scale_name a:hover {
+  transform: scale(0.95);
+  background-color:rgb(203, 255, 255); 
+}
+
+.blues_music{
+  display: inline;
+}
+
+.blues_music a{
+  position: relative;
+  display:inline-block;
+  color: #4f4f4f;
  text-decoration: none;
  border:2px outset rgb(174, 185, 248);
  border-radius: 10px;
 }
 
-.scale_ul li a:hover{
-  background-color:rgb(203, 255, 255); 
-  border-radius: 8px;
+.blues_music a::after{
+  content:'';
+  position:absolute;
+  top:0;
+  bottom:0;
+  transform:rotate(45deg);
+  transition:0.2s;
+  box-sizing:border-box;
 }
 
-.blues p a:hover{
+.blues_music a:hover{
+  transform: scale(0.95);
   background-color: rgb(174, 185, 248);
   border-radius: 10px;
 }
