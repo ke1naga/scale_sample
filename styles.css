@@ -202,6 +202,7 @@ h1{
   left: 100%;
 }
 
+
 .a_text{
   display: inline-block; /* テキストのサイズに応じてボックスの幅を調整 */
   text-decoration: none;
@@ -267,6 +268,41 @@ h4{
 
 
 /*page2*/
+
+/* 光のスタイル 2ページ*/
+.reflection{
+  display: block; /* ブロック要素に変更 */
+  margin: 0 auto; /* 左右の自動マージンで中央揃え */
+  max-width: 100%; /* 画像が大きすぎないように制限 */
+  height: 120px;
+  width:400px;
+  position:relative;
+  overflow: hidden;
+}
+
+.reflection3 {
+  overflow: hidden;
+}
+.reflection3::before {
+  content: '';
+  position: absolute;
+  top: 0;
+  left: -100%;
+  width: 100%;
+  height: 100%;
+  background-image: linear-gradient(130deg, rgba(255, 255, 255, 0) 20%, rgba(255, 255, 255, 0.5) 50%, rgba(255, 255, 255, 0) 80%);
+  animation: reflection 1s ease-out forwards;
+}
+
+@keyframes reflection {
+  from {
+    left: -100%;
+  }
+  to {
+    left: 100%;
+  }
+}
+
 
 .scale_image_2{
     display: block; /* ブロック要素に変更 */
