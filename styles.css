@@ -449,7 +449,7 @@ text-align:center;
 .kurukuru {
   margin:0 auto;
   display:block;
-  background: linear-gradient(to right, #362ae0 0%,#3b79cc 50%,#42d3ed 100%);
+  background: linear-gradient(to right, #e500e1 0%,#ff63dd 50%,#ff00dd 100%);
   width: 5rem;
   height: 5rem;
   opacity: 1;
